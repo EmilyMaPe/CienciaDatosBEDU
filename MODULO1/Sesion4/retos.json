@@ -1,0 +1,82 @@
+{
+ project: {
+  _id: 0,
+  date: 1,
+  name: 1,
+  text: 1
+ }
+}
+
+
+{
+ project: {
+  title: 1,
+  cast: 1,
+  year: 1,
+  _id: 0
+ }
+}
+
+{
+ project: {
+  name: 1,
+  password: 1,
+  _id: 0
+ }
+}
+
+
+{
+ filter: {
+  name: 'Greg Powell'
+ },
+ project: {
+  name: 1,
+  text: 1,
+  _id: 0
+ }
+}
+
+{
+ filter: {
+  $or: [
+   {
+    name: 'Greg Powell'
+   },
+   {
+    name: 'Mercedes Tyler'
+   }
+  ]
+ },
+ project: {
+  name: 1,
+  text: 1,
+  _id: 0
+ }
+}
+
+
+{
+ project: {
+  _id: 0,
+  num_mflix_comments: 1
+ },
+ sort: {
+  num_mflix_comments: -1
+ },
+ limit: 1
+}
+
+
+
+{
+ project: {
+  _id: 0,
+  title: 1,
+  num_mflix_comments: 1
+ },
+ sort: {
+  num_mflix_comments: -1
+ },
+ limit: 5
+}
