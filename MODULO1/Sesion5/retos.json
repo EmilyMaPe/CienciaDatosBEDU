@@ -1,0 +1,91 @@
+Reto11:{
+ filter: {
+  house_rules: RegExp('No Part(y|ies)', i)
+ },
+ project: {
+  _id: 0,
+  house_rules: 1
+ }
+}
+
+Reto12:{
+ filter: {
+  house_rules: RegExp('[^No] Pets? allowed', i)
+ },
+ project: {
+  _id: 0,
+  house_rules: 1
+ }
+}
+
+Reto13:{
+ filter: {
+  house_rules: RegExp('No Smok(e|ing)', i)
+ },
+ project: {
+  _id: 0,
+  house_rules: 1
+ }
+}
+Reto14:{
+ filter: {
+  $and: [
+   {
+    house_rules: RegExp('No Smok(e|ing)', i)
+   },
+   {
+    house_rules: RegExp('No Part(y|ies)', i)
+   }
+  ]
+ },
+ project: {
+  _id: 0,
+  house_rules: 1
+ }
+}
+
+Reto2: {
+ filter: {
+  $and: [
+   {
+    number_of_reviews: {
+     $gte: 50
+    }
+   },
+   {
+    'review_scores.review_scores_rating': {
+     $gte: 80
+    }
+   },
+   {
+    amenities: RegExp('Ethernet', i)
+   },
+   {
+    'address.country_code': 'BR'
+   }
+  ]
+ },
+ project: {
+  number_of_reviews: 1,
+  review_scores: 1,
+  amenities: 1,
+  address: 1,
+  _id: 0
+ }
+}
+
+Reto3:{
+        '$match': {
+            'amenities': {
+                '$in': [
+                    re.compile(r"wifi(?i)"), re.compile(r"ethernet(?i)")
+                ]
+            }
+        }
+    }, {
+        '$count': 'total'
+    }, {
+        '$project': {
+            'total': 1
+        }
+    }
