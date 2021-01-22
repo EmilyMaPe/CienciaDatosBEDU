@@ -2,15 +2,13 @@
 
 # Objetivo
 # Poder determinar el tipo de variables y objetos que se utilizan
-# Creación y manipulación de objetos (vectores, matrices, data frames, entre otros)
-# Operaciones básicas
+# Creacion y manipulacion de objetos (vectores, matrices, data frames, entre otros)
+# Operaciones basicas
 
-# Requisitos
-# Tener previamente instalados R y RStudio
-# Haber leido y comprendido el Prework
 
 # Desarrollo
-# Se tiene una serie de códigos los cuales deberán irse corriento línea a línea, recordar que siempre se ejecuta una línea presionando Ctrl + Enter
+# Se tiene una serie de codigos los cuales deberan irse corriento linea a linea,
+# recordar que siempre se ejecuta una linea presionando Ctrl + Enter
 
 # Primero vamos a crear algunas variables de diferentes tipos:
   
@@ -20,7 +18,7 @@
 (var.logical <- T)
 (vector <- c(1,2))
 
-# Ahora con la función class veremos la tipología de las variables
+# Ahora con la funcion class veremos la tipologia de las variables
 
 class(var.number)
 class(var.hola)
@@ -32,7 +30,7 @@ class(var.logical)
 class(var.logical)
 typeof(var.logical)
 
-# En este paso vamos a crear vectores, siempre serán de la forma c(elem1, elem2, ...)
+# En este paso vamos a crear vectores, siempre seran de la forma c(elem1, elem2, ...)
 
 a <- c(4, 6, 8, 10,12)
 b <- c(3, 5, 7, 9)
@@ -42,7 +40,7 @@ b <- c(3, 5, 7, 9)
 length(a)
 length(b)
 
-# Se puede acceder a las coordenadas de un vector haciendo uso de [] y su posición
+# Se puede acceder a las coordenadas de un vector haciendo uso de [] y su posicion
 
 a[1]
 b[4]
@@ -51,7 +49,7 @@ b[4]
 
 c(a,b)
 
-# Organizarlos con la función sort, cambia la F por T y observa que ocurre
+# Organizarlos con la funcion sort, cambia la F por T y observa que ocurre
 
 
 sort(c(a,b), decreasing = F)
@@ -60,19 +58,20 @@ sort(c(a,b), decreasing = F)
 
 3:12  # asi de sencillo es
 
-# Intenta los siguientes y prueba con otras que se te vengan a la imaginación
+# Intenta los siguientes y prueba con otras que se te vengan a la imaginacion
 
 10:1
 1:1000
 0:10
 
-# También se pueden generar vectores que no sean sucesivos con la función seq, intenta cambiar el valor de los argumentos y observa el comportamiento de los vectores
+# Tambien se pueden generar vectores que no sean sucesivos con la funcion seq,
+# intenta cambiar el valor de los argumentos y observa el comportamiento de los vectores
 
 (vector.by2 <- seq(from = 1, to = 10, by =2))
 
 (vector.by3 <- seq(1, 10, 3))
 
-# Para repetir un número o un vector un determinado número de ocasiones utilizamos rep
+# Para repetir un numero o un vector un determinado numero de ocasiones utilizamos rep
 
 rep(5, times = 6)
 
@@ -81,7 +80,8 @@ rep(5, times = 6)
 rep(a, 2)
 rep(b, 3)
 
-# Reciclaje, al hacer operaciones entre vectores, R repetirá los valores del vector, hasta alcanzar la dimensión requerida
+# Reciclaje, al hacer operaciones entre vectores, R repetia los valores del 
+# vector, hasta alcanzar la dimension requerida
 
 c(1, 2) + c(7, 8, 9, 10)
 

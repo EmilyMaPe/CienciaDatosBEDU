@@ -9,13 +9,16 @@
 # Prework
 
 # Desarrollo
-# En este ejemplo se te guiará para poder realizar la instalación y carga de paquetes que son requeridos para realizar análisis, gráficas, o para extraer información con diversas funciones. Esto es útil ya que agrega funcionalidades a R, ya sea para graficar o generar análisis con diversas técnicas.
+# En este ejemplo se te guiara para poder realizar la instalacion y carga de
+# paquetes que son requeridos para realizar analisis, graficas, o para extraer
+# informacion con diversas funciones. Esto es util ya que agrega funcionalidades
+# a R, ya sea para graficar o generar analisis con diversas tecnicas.
 
 # Se instalan de la siguiente manera
 
 #install.packages("ggplot2") #siempre lleva  comillas
 
-# Una vez que se instaló, se debe de cargar
+# Una vez que se instala, se debe de cargar
 
 library(ggplot2) # Se omite el uso de las comillas
 
@@ -24,8 +27,10 @@ library(ggplot2) # Se omite el uso de las comillas
 #install.packages("dplyr")
 library(dplyr)
 
-# Algo útil es revisar la versión que se tiene de R, ya que en ocasiones no se instalan ciertos paquetes por la incompatibilidad de R, el siguiente comando nos indicará la versión que estamos trabajando.
+# Algo util es revisar la version que se tiene de R, ya que en ocasiones no se 
+# instalan ciertos paquetes por la incompatibilidad de R, el siguiente comando
+# nos indicara la versin oque estamos trabajando.
 
 version
 
-# También se puede realizar esta acción en la pestaña de Packages, intentalo.
+# Tambien se puede realizar esta accion en la pesta�a de Packages, intentalo.

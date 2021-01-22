@@ -2,8 +2,8 @@
 
 # Objetivo
 # Crear listas y data frames
-# Extraer información de estos
-# Cálculo de estadísticos básicos
+# Extraer informacion de estos
+# Calculo de estadisticos basicos
 
 # Requisitos
 
@@ -13,7 +13,7 @@
 
 # Desarrollo
 
-# Seguir el contenido y tratar de comprender el código mostrado a continuación
+# Seguir el contenido y tratar de comprender el codigo mostrado a continuacion
 
 # Listas
 
@@ -23,7 +23,7 @@
 
 str(milista)
 
-# Extrayendo elementos de la lista, recuerda que para ingresar se debe usar el símbolo $
+# Extrayendo elementos de la lista, recuerda que para ingresar se debe usar el simbolo $
   
 milista$nombre
 
@@ -37,17 +37,17 @@ y <- c("A", "B", "C")
 #str es de estructura
 str(myfile)
 
-# Extrayendo información del df, se hace igual que con las matrices
+# Extrayendo informacion del df, se hace igual que con las matrices
 
 myfile[1]
 myfile[,1]
 myfile$edad
 
-# Calculando algunos estadísticos básicos
+# Calculando algunos estadisticos basicos
 
 mean(myfile$edad)
 
-# Podemos hacer uso de la función `paste` para agregar un mensaje
+# Podemos hacer uso de la funcion `paste` para agregar un mensaje
 
 paste("La media de la edad es:", mean(myfile$edad))
 print("La media de la edad es:", mean(myfile$edad))
@@ -56,7 +56,7 @@ print("La media de la edad es:", mean(myfile$edad))
 
 summary(myfile)
 
-# También se puede conocer su dimensión
+# Tambien se puede conocer su dimension
 #filas columnas
 dim(myfile)
 

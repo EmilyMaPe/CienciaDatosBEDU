@@ -5,16 +5,12 @@
 # Crear nuevas matrices
 # Extraer datos dentro de una matriz
 # Calcular sus dimensiones
-# Realizar operaciones básicas entre matrices
+# Realizar operaciones basicas entre matrices
 
-# Requisitos
-
-# Tener instalados R y RStudio
-# Haber estudiado el Prework
 
 # Desarrollo
 
-# Se debe seguir el código propuesto y tratar de compreder que es lo que realiza
+# Se debe seguir el codigo propuesto y tratar de compreder que es lo que realiza
 
 # Crear Matrices. 
 
@@ -28,7 +24,7 @@ m[1,1]
 
 m[ ,1]
 
-# ¿Qué sucede si se suma un vector y una matriz?
+# �Que sucede si se suma un vector y una matriz?
 
 (sum.vecmat <- c(1, 2) + m)
 
@@ -36,7 +32,7 @@ m[ ,1]
 
 (n <- matrix(2:7, 4, 6))
 
-# Podemos conocer la dimensión de la matriz así
+# Podemos conocer la dimension de la matriz asi
 
 dim(n)
 
@@ -44,7 +40,7 @@ dim(n)
 
 n[n > 4] 
 
-# Ahora veremos como localizar la posición de las entradas anteriores
+# Ahora veremos como localizar la posicion de las entradas anteriores
 
 which(n > 4)
 
@@ -53,22 +49,22 @@ which(n > 4)
 a <- 2:6
 b <- 5:9
 
-# Construyendo la matriz utilizando la función cbind, para unirlos por culumna
+# Construyendo la matriz utilizando la funcion cbind, para unirlos por culumna
 
 cbind(a,b)
 
-# Construyendo la matriz utilizando la función rbind, para unirlos por fila
+# Construyendo la matriz utilizando la funcion rbind, para unirlos por fila
 
 rbind(a,b)
 
-# Aplicando una función a las filas o columnas de una matriz (mean, sort)
+# Aplicando una funcion a las filas o columnas de una matriz (mean, sort)
 # 1 por fila
 #2 po columna
 apply(n, 1, mean)
 apply(n, 2, sort)
 apply(n,1,sort)
 
-# Algunas operaciones básicas de matrices
+# Algunas operaciones basicas de matrices
 
 # Producto matricial: A %*% B
 # Producto elemento a elemento: A*B
