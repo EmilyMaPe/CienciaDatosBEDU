@@ -22,7 +22,7 @@ temp18_19 <- read.csv("temp1819.csv")
 temp19_20 <- read.csv("temp1920.csv")
 temp20_21 <- read.csv("temp2021.csv")
 
-# 3. Usando la función select del paquete dplyr, seleccione únicamente las columnas:
+# 3. Usando la funcion select del paquete dplyr, seleccione unicamente las columnas:
 #Date
 #HomeTeam
 #AwayTeam
@@ -48,7 +48,7 @@ attach(temp20_21)
 t20_21 <- select(temp20_21, Date, HomeTeam, AwayTeam, FTHG, FTAG, FTR)
 detach(temp20_21)
 
-#4. Combine cada uno de los data frames en un único data frame con ayuda de las funciones:
+#4. Combine cada uno de los data frames en un unico data frame con ayuda de las funciones:
 #rbind
 t17_20 <- rbind(t17_18,t18_19,t19_20,t20_21, deparse.level = 1) 
 

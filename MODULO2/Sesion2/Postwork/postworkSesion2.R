@@ -24,4 +24,6 @@ lista2 <- lapply(lista, select, Date, HomeTeam:FTR)
 
 lista2 <- lapply(lista2, mutate)
 data <- do.call(rbind, lista2)
+setwd("C:/Users/monts/SantanderBEDU/MODULO2/Sesion3/Postwork") 
+write.csv(data, "dataSesion2.csv")
 
