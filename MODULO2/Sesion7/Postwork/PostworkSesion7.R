@@ -32,11 +32,14 @@ db$find('{"Date": "2019-12-22", "HomeTeam": "Real Madrid"}')
 #  1 940 2019-12-22 Real Madrid Ath Bilbao    0    0   D
 #  El resultado es un empate
 
-# 4. Por último, no olvides cerrar la conexión con la BDD
-
+# 4. Agrega el dataset de mtcars a la misma BDD Por último, no olvides cerrar la conexión con la BDD.
+setwd("C:/Users/monts/SantanderBEDU/MODULO2/Sesion7/Postwork")
+x <- jsonlite::toJSON(mtcars, collapse= '', byrow = TRUE)
+writeLines(x, sep='\n', 'mtcars.txt')
+db$import(file('mtcars.txt', 'r'))
+db$count() # 64
 db$disconnect()
 db$drop()
-
 
 
 
