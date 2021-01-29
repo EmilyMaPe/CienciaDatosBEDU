@@ -1,0 +1,919 @@
+"date","home.team","home.score","away.team","away.score"
+"2017-08-18","Bayern Munich",3,"Leverkusen",1
+"2017-08-19","Hamburg",1,"Augsburg",0
+"2017-08-19","Hertha",2,"Stuttgart",0
+"2017-08-19","Hoffenheim",1,"Werder Bremen",0
+"2017-08-19","Mainz",0,"Hannover",1
+"2017-08-19","Schalke 04",2,"RB Leipzig",0
+"2017-08-19","Wolfsburg",0,"Dortmund",3
+"2017-08-20","Freiburg",0,"Ein Frankfurt",0
+"2017-08-20","M'gladbach",1,"FC Koln",0
+"2017-08-25","FC Koln",1,"Hamburg",3
+"2017-08-26","Augsburg",2,"M'gladbach",2
+"2017-08-26","Dortmund",2,"Hertha",0
+"2017-08-26","Ein Frankfurt",0,"Wolfsburg",1
+"2017-08-26","Leverkusen",2,"Hoffenheim",2
+"2017-08-26","Stuttgart",1,"Mainz",0
+"2017-08-26","Werder Bremen",0,"Bayern Munich",2
+"2017-08-27","Hannover",1,"Schalke 04",0
+"2017-08-27","RB Leipzig",4,"Freiburg",1
+"2017-09-08","Hamburg",0,"RB Leipzig",2
+"2017-09-09","Augsburg",3,"FC Koln",0
+"2017-09-09","Freiburg",0,"Dortmund",0
+"2017-09-09","Hoffenheim",2,"Bayern Munich",0
+"2017-09-09","Mainz",3,"Leverkusen",1
+"2017-09-09","M'gladbach",0,"Ein Frankfurt",1
+"2017-09-09","Wolfsburg",1,"Hannover",1
+"2017-09-10","Hertha",1,"Werder Bremen",1
+"2017-09-10","Schalke 04",3,"Stuttgart",1
+"2017-09-15","Hannover",2,"Hamburg",0
+"2017-09-16","Bayern Munich",4,"Mainz",0
+"2017-09-16","Ein Frankfurt",1,"Augsburg",2
+"2017-09-16","RB Leipzig",2,"M'gladbach",2
+"2017-09-16","Stuttgart",1,"Wolfsburg",0
+"2017-09-16","Werder Bremen",1,"Schalke 04",2
+"2017-09-17","Dortmund",5,"FC Koln",0
+"2017-09-17","Hoffenheim",1,"Hertha",1
+"2017-09-17","Leverkusen",4,"Freiburg",0
+"2017-09-19","Augsburg",1,"RB Leipzig",0
+"2017-09-19","M'gladbach",2,"Stuttgart",0
+"2017-09-19","Schalke 04",0,"Bayern Munich",3
+"2017-09-19","Wolfsburg",1,"Werder Bremen",1
+"2017-09-20","FC Koln",0,"Ein Frankfurt",1
+"2017-09-20","Freiburg",1,"Hannover",1
+"2017-09-20","Hamburg",0,"Dortmund",3
+"2017-09-20","Hertha",2,"Leverkusen",1
+"2017-09-20","Mainz",2,"Hoffenheim",3
+"2017-09-22","Bayern Munich",2,"Wolfsburg",2
+"2017-09-23","Dortmund",6,"M'gladbach",1
+"2017-09-23","Hoffenheim",2,"Schalke 04",0
+"2017-09-23","Mainz",1,"Hertha",0
+"2017-09-23","RB Leipzig",2,"Ein Frankfurt",1
+"2017-09-23","Stuttgart",0,"Augsburg",0
+"2017-09-23","Werder Bremen",0,"Freiburg",0
+"2017-09-24","Hannover",0,"FC Koln",0
+"2017-09-24","Leverkusen",3,"Hamburg",0
+"2017-09-29","Schalke 04",1,"Leverkusen",1
+"2017-09-30","Augsburg",1,"Dortmund",2
+"2017-09-30","Ein Frankfurt",2,"Stuttgart",1
+"2017-09-30","Hamburg",0,"Werder Bremen",0
+"2017-09-30","M'gladbach",2,"Hannover",1
+"2017-09-30","Wolfsburg",1,"Mainz",1
+"2017-10-01","FC Koln",1,"RB Leipzig",2
+"2017-10-01","Freiburg",3,"Hoffenheim",2
+"2017-10-01","Hertha",2,"Bayern Munich",2
+"2017-10-13","Stuttgart",2,"FC Koln",1
+"2017-10-14","Bayern Munich",5,"Freiburg",0
+"2017-10-14","Dortmund",2,"RB Leipzig",3
+"2017-10-14","Hannover",1,"Ein Frankfurt",2
+"2017-10-14","Hertha",0,"Schalke 04",2
+"2017-10-14","Hoffenheim",2,"Augsburg",2
+"2017-10-14","Mainz",3,"Hamburg",2
+"2017-10-15","Leverkusen",2,"Wolfsburg",2
+"2017-10-15","Werder Bremen",0,"M'gladbach",2
+"2017-10-20","Schalke 04",2,"Mainz",0
+"2017-10-21","Augsburg",1,"Hannover",2
+"2017-10-21","Ein Frankfurt",2,"Dortmund",2
+"2017-10-21","Hamburg",0,"Bayern Munich",1
+"2017-10-21","M'gladbach",1,"Leverkusen",5
+"2017-10-21","RB Leipzig",1,"Stuttgart",0
+"2017-10-22","FC Koln",0,"Werder Bremen",0
+"2017-10-22","Freiburg",1,"Hertha",1
+"2017-10-22","Wolfsburg",1,"Hoffenheim",1
+"2017-10-27","Mainz",1,"Ein Frankfurt",1
+"2017-10-28","Bayern Munich",2,"RB Leipzig",0
+"2017-10-28","Hannover",4,"Dortmund",2
+"2017-10-28","Hertha",2,"Hamburg",1
+"2017-10-28","Hoffenheim",1,"M'gladbach",3
+"2017-10-28","Leverkusen",2,"FC Koln",1
+"2017-10-28","Schalke 04",1,"Wolfsburg",1
+"2017-10-29","Stuttgart",3,"Freiburg",0
+"2017-10-29","Werder Bremen",0,"Augsburg",3
+"2017-11-03","Ein Frankfurt",2,"Werder Bremen",1
+"2017-11-04","Augsburg",1,"Leverkusen",1
+"2017-11-04","Dortmund",1,"Bayern Munich",3
+"2017-11-04","Freiburg",0,"Schalke 04",1
+"2017-11-04","Hamburg",3,"Stuttgart",1
+"2017-11-04","M'gladbach",1,"Mainz",1
+"2017-11-04","RB Leipzig",2,"Hannover",1
+"2017-11-05","FC Koln",0,"Hoffenheim",3
+"2017-11-05","Wolfsburg",3,"Hertha",3
+"2017-11-17","Stuttgart",2,"Dortmund",1
+"2017-11-18","Bayern Munich",3,"Augsburg",0
+"2017-11-18","Hertha",2,"M'gladbach",4
+"2017-11-18","Hoffenheim",1,"Ein Frankfurt",1
+"2017-11-18","Leverkusen",2,"RB Leipzig",2
+"2017-11-18","Mainz",1,"FC Koln",0
+"2017-11-18","Wolfsburg",3,"Freiburg",1
+"2017-11-19","Schalke 04",2,"Hamburg",0
+"2017-11-19","Werder Bremen",4,"Hannover",0
+"2017-11-24","Hannover",1,"Stuttgart",1
+"2017-11-25","Augsburg",2,"Wolfsburg",1
+"2017-11-25","Dortmund",4,"Schalke 04",4
+"2017-11-25","Ein Frankfurt",0,"Leverkusen",1
+"2017-11-25","Freiburg",2,"Mainz",1
+"2017-11-25","M'gladbach",2,"Bayern Munich",1
+"2017-11-25","RB Leipzig",2,"Werder Bremen",0
+"2017-11-26","FC Koln",0,"Hertha",2
+"2017-11-26","Hamburg",3,"Hoffenheim",0
+"2017-12-01","Freiburg",0,"Hamburg",0
+"2017-12-02","Bayern Munich",3,"Hannover",1
+"2017-12-02","Hoffenheim",4,"RB Leipzig",0
+"2017-12-02","Leverkusen",1,"Dortmund",1
+"2017-12-02","Mainz",1,"Augsburg",3
+"2017-12-02","Schalke 04",2,"FC Koln",2
+"2017-12-02","Werder Bremen",1,"Stuttgart",0
+"2017-12-03","Hertha",1,"Ein Frankfurt",2
+"2017-12-03","Wolfsburg",3,"M'gladbach",0
+"2017-12-08","Stuttgart",0,"Leverkusen",2
+"2017-12-09","Dortmund",1,"Werder Bremen",2
+"2017-12-09","Ein Frankfurt",0,"Bayern Munich",1
+"2017-12-09","Hamburg",0,"Wolfsburg",0
+"2017-12-09","M'gladbach",1,"Schalke 04",1
+"2017-12-09","RB Leipzig",2,"Mainz",2
+"2017-12-10","Augsburg",1,"Hertha",1
+"2017-12-10","FC Koln",3,"Freiburg",4
+"2017-12-10","Hannover",2,"Hoffenheim",0
+"2017-12-12","Freiburg",1,"M'gladbach",0
+"2017-12-12","Hamburg",1,"Ein Frankfurt",2
+"2017-12-12","Mainz",0,"Dortmund",2
+"2017-12-12","Wolfsburg",1,"RB Leipzig",1
+"2017-12-13","Bayern Munich",1,"FC Koln",0
+"2017-12-13","Hertha",3,"Hannover",1
+"2017-12-13","Hoffenheim",1,"Stuttgart",0
+"2017-12-13","Leverkusen",1,"Werder Bremen",0
+"2017-12-13","Schalke 04",3,"Augsburg",2
+"2017-12-15","M'gladbach",3,"Hamburg",1
+"2017-12-16","Augsburg",3,"Freiburg",3
+"2017-12-16","Dortmund",2,"Hoffenheim",1
+"2017-12-16","Ein Frankfurt",2,"Schalke 04",2
+"2017-12-16","FC Koln",1,"Wolfsburg",0
+"2017-12-16","Stuttgart",0,"Bayern Munich",1
+"2017-12-16","Werder Bremen",2,"Mainz",2
+"2017-12-17","Hannover",4,"Leverkusen",4
+"2017-12-17","RB Leipzig",2,"Hertha",3
+"2018-01-12","Leverkusen",1,"Bayern Munich",3
+"2018-01-13","Augsburg",1,"Hamburg",0
+"2018-01-13","Ein Frankfurt",1,"Freiburg",1
+"2018-01-13","Hannover",3,"Mainz",2
+"2018-01-13","RB Leipzig",3,"Schalke 04",1
+"2018-01-13","Stuttgart",1,"Hertha",0
+"2018-01-13","Werder Bremen",1,"Hoffenheim",1
+"2018-01-14","Dortmund",0,"Wolfsburg",0
+"2018-01-14","FC Koln",2,"M'gladbach",1
+"2018-01-19","Hertha",1,"Dortmund",1
+"2018-01-20","Freiburg",2,"RB Leipzig",1
+"2018-01-20","Hamburg",0,"FC Koln",2
+"2018-01-20","Hoffenheim",1,"Leverkusen",4
+"2018-01-20","Mainz",3,"Stuttgart",2
+"2018-01-20","M'gladbach",2,"Augsburg",0
+"2018-01-20","Wolfsburg",1,"Ein Frankfurt",3
+"2018-01-21","Bayern Munich",4,"Werder Bremen",2
+"2018-01-21","Schalke 04",1,"Hannover",1
+"2018-01-26","Ein Frankfurt",2,"M'gladbach",0
+"2018-01-27","Bayern Munich",5,"Hoffenheim",2
+"2018-01-27","Dortmund",2,"Freiburg",2
+"2018-01-27","FC Koln",1,"Augsburg",1
+"2018-01-27","RB Leipzig",1,"Hamburg",1
+"2018-01-27","Stuttgart",0,"Schalke 04",2
+"2018-01-27","Werder Bremen",0,"Hertha",0
+"2018-01-28","Hannover",0,"Wolfsburg",1
+"2018-01-28","Leverkusen",2,"Mainz",0
+"2018-02-02","FC Koln",2,"Dortmund",3
+"2018-02-03","Freiburg",0,"Leverkusen",0
+"2018-02-03","Hertha",1,"Hoffenheim",1
+"2018-02-03","Mainz",0,"Bayern Munich",2
+"2018-02-03","M'gladbach",0,"RB Leipzig",1
+"2018-02-03","Schalke 04",1,"Werder Bremen",2
+"2018-02-03","Wolfsburg",1,"Stuttgart",1
+"2018-02-04","Augsburg",3,"Ein Frankfurt",0
+"2018-02-04","Hamburg",1,"Hannover",1
+"2018-02-09","RB Leipzig",2,"Augsburg",0
+"2018-02-10","Bayern Munich",2,"Schalke 04",1
+"2018-02-10","Dortmund",2,"Hamburg",0
+"2018-02-10","Ein Frankfurt",4,"FC Koln",2
+"2018-02-10","Hannover",2,"Freiburg",1
+"2018-02-10","Hoffenheim",4,"Mainz",2
+"2018-02-10","Leverkusen",0,"Hertha",2
+"2018-02-11","Stuttgart",1,"M'gladbach",0
+"2018-02-11","Werder Bremen",3,"Wolfsburg",1
+"2018-02-16","Hertha",0,"Mainz",2
+"2018-02-17","FC Koln",1,"Hannover",1
+"2018-02-17","Freiburg",1,"Werder Bremen",0
+"2018-02-17","Hamburg",1,"Leverkusen",2
+"2018-02-17","Schalke 04",2,"Hoffenheim",1
+"2018-02-17","Wolfsburg",1,"Bayern Munich",2
+"2018-02-18","Augsburg",0,"Stuttgart",1
+"2018-02-18","M'gladbach",0,"Dortmund",1
+"2018-02-19","Ein Frankfurt",2,"RB Leipzig",1
+"2018-02-23","Mainz",1,"Wolfsburg",1
+"2018-02-24","Bayern Munich",0,"Hertha",0
+"2018-02-24","Hannover",0,"M'gladbach",1
+"2018-02-24","Hoffenheim",1,"Freiburg",1
+"2018-02-24","Stuttgart",1,"Ein Frankfurt",0
+"2018-02-24","Werder Bremen",1,"Hamburg",0
+"2018-02-25","Leverkusen",0,"Schalke 04",2
+"2018-02-25","RB Leipzig",1,"FC Koln",2
+"2018-02-26","Dortmund",1,"Augsburg",1
+"2018-03-02","M'gladbach",2,"Werder Bremen",2
+"2018-03-03","Augsburg",0,"Hoffenheim",2
+"2018-03-03","Ein Frankfurt",1,"Hannover",0
+"2018-03-03","Hamburg",0,"Mainz",0
+"2018-03-03","RB Leipzig",1,"Dortmund",1
+"2018-03-03","Schalke 04",1,"Hertha",0
+"2018-03-03","Wolfsburg",1,"Leverkusen",2
+"2018-03-04","FC Koln",2,"Stuttgart",3
+"2018-03-04","Freiburg",0,"Bayern Munich",4
+"2018-03-09","Mainz",0,"Schalke 04",1
+"2018-03-10","Bayern Munich",6,"Hamburg",0
+"2018-03-10","Hannover",1,"Augsburg",3
+"2018-03-10","Hertha",0,"Freiburg",0
+"2018-03-10","Hoffenheim",3,"Wolfsburg",0
+"2018-03-10","Leverkusen",2,"M'gladbach",0
+"2018-03-11","Dortmund",3,"Ein Frankfurt",2
+"2018-03-11","Stuttgart",0,"RB Leipzig",0
+"2018-03-12","Werder Bremen",3,"FC Koln",1
+"2018-03-16","Freiburg",1,"Stuttgart",2
+"2018-03-17","Augsburg",1,"Werder Bremen",3
+"2018-03-17","Ein Frankfurt",3,"Mainz",0
+"2018-03-17","Hamburg",1,"Hertha",2
+"2018-03-17","M'gladbach",3,"Hoffenheim",3
+"2018-03-17","Wolfsburg",0,"Schalke 04",1
+"2018-03-18","Dortmund",1,"Hannover",0
+"2018-03-18","FC Koln",2,"Leverkusen",0
+"2018-03-18","RB Leipzig",2,"Bayern Munich",1
+"2018-03-31","Bayern Munich",6,"Dortmund",0
+"2018-03-31","Hannover",2,"RB Leipzig",3
+"2018-03-31","Hertha",0,"Wolfsburg",0
+"2018-03-31","Hoffenheim",6,"FC Koln",0
+"2018-03-31","Leverkusen",0,"Augsburg",0
+"2018-03-31","Schalke 04",2,"Freiburg",0
+"2018-03-31","Stuttgart",1,"Hamburg",1
+"2018-04-01","Mainz",0,"M'gladbach",0
+"2018-04-01","Werder Bremen",2,"Ein Frankfurt",1
+"2018-04-06","Hannover",2,"Werder Bremen",1
+"2018-04-07","Augsburg",1,"Bayern Munich",4
+"2018-04-07","FC Koln",1,"Mainz",1
+"2018-04-07","Freiburg",0,"Wolfsburg",2
+"2018-04-07","Hamburg",3,"Schalke 04",2
+"2018-04-07","M'gladbach",2,"Hertha",1
+"2018-04-08","Dortmund",3,"Stuttgart",0
+"2018-04-08","Ein Frankfurt",1,"Hoffenheim",1
+"2018-04-09","RB Leipzig",1,"Leverkusen",4
+"2018-04-13","Wolfsburg",0,"Augsburg",0
+"2018-04-14","Bayern Munich",5,"M'gladbach",1
+"2018-04-14","Hertha",2,"FC Koln",1
+"2018-04-14","Hoffenheim",2,"Hamburg",0
+"2018-04-14","Leverkusen",4,"Ein Frankfurt",1
+"2018-04-14","Stuttgart",1,"Hannover",1
+"2018-04-15","Schalke 04",2,"Dortmund",0
+"2018-04-15","Werder Bremen",1,"RB Leipzig",1
+"2018-04-16","Mainz",2,"Freiburg",0
+"2018-04-20","M'gladbach",3,"Wolfsburg",0
+"2018-04-21","Dortmund",4,"Leverkusen",0
+"2018-04-21","Ein Frankfurt",0,"Hertha",3
+"2018-04-21","Hamburg",1,"Freiburg",0
+"2018-04-21","Hannover",0,"Bayern Munich",3
+"2018-04-21","RB Leipzig",2,"Hoffenheim",5
+"2018-04-21","Stuttgart",2,"Werder Bremen",0
+"2018-04-22","Augsburg",2,"Mainz",0
+"2018-04-22","FC Koln",2,"Schalke 04",2
+"2018-04-27","Hoffenheim",3,"Hannover",1
+"2018-04-28","Bayern Munich",4,"Ein Frankfurt",1
+"2018-04-28","Freiburg",3,"FC Koln",2
+"2018-04-28","Hertha",2,"Augsburg",2
+"2018-04-28","Leverkusen",0,"Stuttgart",1
+"2018-04-28","Schalke 04",1,"M'gladbach",1
+"2018-04-28","Wolfsburg",1,"Hamburg",3
+"2018-04-29","Mainz",3,"RB Leipzig",0
+"2018-04-29","Werder Bremen",1,"Dortmund",1
+"2018-05-05","Augsburg",1,"Schalke 04",2
+"2018-05-05","Dortmund",1,"Mainz",2
+"2018-05-05","Ein Frankfurt",3,"Hamburg",0
+"2018-05-05","FC Koln",1,"Bayern Munich",3
+"2018-05-05","Hannover",3,"Hertha",1
+"2018-05-05","M'gladbach",3,"Freiburg",1
+"2018-05-05","RB Leipzig",4,"Wolfsburg",1
+"2018-05-05","Stuttgart",2,"Hoffenheim",0
+"2018-05-05","Werder Bremen",0,"Leverkusen",0
+"2018-05-12","Bayern Munich",1,"Stuttgart",4
+"2018-05-12","Freiburg",2,"Augsburg",0
+"2018-05-12","Hamburg",2,"M'gladbach",1
+"2018-05-12","Hertha",2,"RB Leipzig",6
+"2018-05-12","Hoffenheim",3,"Dortmund",1
+"2018-05-12","Leverkusen",3,"Hannover",2
+"2018-05-12","Mainz",1,"Werder Bremen",2
+"2018-05-12","Schalke 04",1,"Ein Frankfurt",0
+"2018-05-12","Wolfsburg",4,"FC Koln",1
+"2018-08-24","Bayern Munich",3,"Hoffenheim",1
+"2018-08-25","Fortuna Dusseldorf",1,"Augsburg",2
+"2018-08-25","Freiburg",0,"Ein Frankfurt",2
+"2018-08-25","Hertha",1,"Nurnberg",0
+"2018-08-25","M'gladbach",2,"Leverkusen",0
+"2018-08-25","Werder Bremen",1,"Hannover",1
+"2018-08-25","Wolfsburg",2,"Schalke 04",1
+"2018-08-26","Dortmund",4,"RB Leipzig",1
+"2018-08-26","Mainz",1,"Stuttgart",0
+"2018-08-31","Hannover",0,"Dortmund",0
+"2018-09-01","Augsburg",1,"M'gladbach",1
+"2018-09-01","Ein Frankfurt",1,"Werder Bremen",2
+"2018-09-01","Hoffenheim",3,"Freiburg",1
+"2018-09-01","Leverkusen",1,"Wolfsburg",3
+"2018-09-01","Nurnberg",1,"Mainz",1
+"2018-09-01","Stuttgart",0,"Bayern Munich",3
+"2018-09-02","RB Leipzig",1,"Fortuna Dusseldorf",1
+"2018-09-02","Schalke 04",0,"Hertha",2
+"2018-09-14","Dortmund",3,"Ein Frankfurt",1
+"2018-09-15","Bayern Munich",3,"Leverkusen",1
+"2018-09-15","Fortuna Dusseldorf",2,"Hoffenheim",1
+"2018-09-15","Mainz",2,"Augsburg",1
+"2018-09-15","M'gladbach",2,"Schalke 04",1
+"2018-09-15","RB Leipzig",3,"Hannover",2
+"2018-09-15","Wolfsburg",2,"Hertha",2
+"2018-09-16","Freiburg",3,"Stuttgart",3
+"2018-09-16","Werder Bremen",1,"Nurnberg",1
+"2018-09-21","Stuttgart",0,"Fortuna Dusseldorf",0
+"2018-09-22","Augsburg",2,"Werder Bremen",3
+"2018-09-22","Hertha",4,"M'gladbach",2
+"2018-09-22","Hoffenheim",1,"Dortmund",1
+"2018-09-22","Nurnberg",2,"Hannover",0
+"2018-09-22","Schalke 04",0,"Bayern Munich",2
+"2018-09-22","Wolfsburg",1,"Freiburg",3
+"2018-09-23","Ein Frankfurt",1,"RB Leipzig",1
+"2018-09-23","Leverkusen",1,"Mainz",0
+"2018-09-25","Bayern Munich",1,"Augsburg",1
+"2018-09-25","Freiburg",1,"Schalke 04",0
+"2018-09-25","Hannover",1,"Hoffenheim",3
+"2018-09-25","Werder Bremen",3,"Hertha",1
+"2018-09-26","Dortmund",7,"Nurnberg",0
+"2018-09-26","Fortuna Dusseldorf",1,"Leverkusen",2
+"2018-09-26","Mainz",0,"Wolfsburg",0
+"2018-09-26","M'gladbach",3,"Ein Frankfurt",1
+"2018-09-26","RB Leipzig",2,"Stuttgart",0
+"2018-09-28","Hertha",2,"Bayern Munich",0
+"2018-09-29","Hoffenheim",1,"RB Leipzig",2
+"2018-09-29","Leverkusen",2,"Dortmund",4
+"2018-09-29","Nurnberg",3,"Fortuna Dusseldorf",0
+"2018-09-29","Schalke 04",1,"Mainz",0
+"2018-09-29","Stuttgart",2,"Werder Bremen",1
+"2018-09-29","Wolfsburg",2,"M'gladbach",2
+"2018-09-30","Augsburg",4,"Freiburg",1
+"2018-09-30","Ein Frankfurt",4,"Hannover",1
+"2018-10-05","Werder Bremen",2,"Wolfsburg",0
+"2018-10-06","Bayern Munich",0,"M'gladbach",3
+"2018-10-06","Dortmund",4,"Augsburg",3
+"2018-10-06","Fortuna Dusseldorf",0,"Schalke 04",2
+"2018-10-06","Hannover",3,"Stuttgart",1
+"2018-10-06","Mainz",0,"Hertha",0
+"2018-10-07","Freiburg",0,"Leverkusen",0
+"2018-10-07","Hoffenheim",1,"Ein Frankfurt",2
+"2018-10-07","RB Leipzig",6,"Nurnberg",0
+"2018-10-19","Ein Frankfurt",7,"Fortuna Dusseldorf",1
+"2018-10-20","Augsburg",0,"RB Leipzig",0
+"2018-10-20","Leverkusen",2,"Hannover",2
+"2018-10-20","Nurnberg",1,"Hoffenheim",3
+"2018-10-20","Schalke 04",0,"Werder Bremen",2
+"2018-10-20","Stuttgart",0,"Dortmund",4
+"2018-10-20","Wolfsburg",1,"Bayern Munich",3
+"2018-10-21","Hertha",1,"Freiburg",1
+"2018-10-21","M'gladbach",4,"Mainz",0
+"2018-10-26","Freiburg",3,"M'gladbach",1
+"2018-10-27","Dortmund",2,"Hertha",2
+"2018-10-27","Fortuna Dusseldorf",0,"Wolfsburg",3
+"2018-10-27","Hannover",1,"Augsburg",2
+"2018-10-27","Hoffenheim",4,"Stuttgart",0
+"2018-10-27","Mainz",1,"Bayern Munich",2
+"2018-10-28","Nurnberg",1,"Ein Frankfurt",1
+"2018-10-28","RB Leipzig",0,"Schalke 04",0
+"2018-10-28","Werder Bremen",2,"Leverkusen",6
+"2018-11-02","Stuttgart",0,"Ein Frankfurt",3
+"2018-11-03","Augsburg",2,"Nurnberg",2
+"2018-11-03","Bayern Munich",1,"Freiburg",1
+"2018-11-03","Hertha",0,"RB Leipzig",3
+"2018-11-03","Leverkusen",1,"Hoffenheim",4
+"2018-11-03","Schalke 04",3,"Hannover",1
+"2018-11-03","Wolfsburg",0,"Dortmund",1
+"2018-11-04","Mainz",2,"Werder Bremen",1
+"2018-11-04","M'gladbach",3,"Fortuna Dusseldorf",0
+"2018-11-09","Hannover",2,"Wolfsburg",1
+"2018-11-10","Dortmund",3,"Bayern Munich",2
+"2018-11-10","Fortuna Dusseldorf",4,"Hertha",1
+"2018-11-10","Freiburg",1,"Mainz",3
+"2018-11-10","Hoffenheim",2,"Augsburg",1
+"2018-11-10","Nurnberg",0,"Stuttgart",2
+"2018-11-10","Werder Bremen",1,"M'gladbach",3
+"2018-11-11","Ein Frankfurt",3,"Schalke 04",0
+"2018-11-11","RB Leipzig",3,"Leverkusen",0
+"2018-11-23","Leverkusen",2,"Stuttgart",0
+"2018-11-24","Augsburg",1,"Ein Frankfurt",3
+"2018-11-24","Bayern Munich",3,"Fortuna Dusseldorf",3
+"2018-11-24","Hertha",3,"Hoffenheim",3
+"2018-11-24","Mainz",1,"Dortmund",2
+"2018-11-24","Schalke 04",5,"Nurnberg",2
+"2018-11-24","Wolfsburg",1,"RB Leipzig",0
+"2018-11-25","Freiburg",1,"Werder Bremen",1
+"2018-11-25","M'gladbach",4,"Hannover",1
+"2018-11-30","Fortuna Dusseldorf",0,"Mainz",1
+"2018-12-01","Dortmund",2,"Freiburg",0
+"2018-12-01","Hannover",0,"Hertha",2
+"2018-12-01","Hoffenheim",1,"Schalke 04",1
+"2018-12-01","Stuttgart",1,"Augsburg",0
+"2018-12-01","Werder Bremen",1,"Bayern Munich",2
+"2018-12-02","Ein Frankfurt",1,"Wolfsburg",2
+"2018-12-02","RB Leipzig",2,"M'gladbach",0
+"2018-12-03","Nurnberg",1,"Leverkusen",1
+"2018-12-07","Werder Bremen",3,"Fortuna Dusseldorf",1
+"2018-12-08","Bayern Munich",3,"Nurnberg",0
+"2018-12-08","Freiburg",3,"RB Leipzig",0
+"2018-12-08","Hertha",1,"Ein Frankfurt",0
+"2018-12-08","Leverkusen",1,"Augsburg",0
+"2018-12-08","Schalke 04",1,"Dortmund",2
+"2018-12-08","Wolfsburg",2,"Hoffenheim",2
+"2018-12-09","Mainz",1,"Hannover",1
+"2018-12-09","M'gladbach",3,"Stuttgart",0
+"2018-12-14","Nurnberg",0,"Wolfsburg",2
+"2018-12-15","Augsburg",1,"Schalke 04",1
+"2018-12-15","Dortmund",2,"Werder Bremen",1
+"2018-12-15","Fortuna Dusseldorf",2,"Freiburg",0
+"2018-12-15","Hannover",0,"Bayern Munich",4
+"2018-12-15","Hoffenheim",0,"M'gladbach",0
+"2018-12-15","Stuttgart",2,"Hertha",1
+"2018-12-16","Ein Frankfurt",2,"Leverkusen",1
+"2018-12-16","RB Leipzig",4,"Mainz",1
+"2018-12-18","Fortuna Dusseldorf",2,"Dortmund",1
+"2018-12-18","Hertha",2,"Augsburg",2
+"2018-12-18","M'gladbach",2,"Nurnberg",0
+"2018-12-18","Wolfsburg",2,"Stuttgart",0
+"2018-12-19","Bayern Munich",1,"RB Leipzig",0
+"2018-12-19","Freiburg",1,"Hannover",1
+"2018-12-19","Mainz",2,"Ein Frankfurt",2
+"2018-12-19","Schalke 04",1,"Leverkusen",2
+"2018-12-19","Werder Bremen",1,"Hoffenheim",1
+"2018-12-21","Dortmund",2,"M'gladbach",1
+"2018-12-22","Ein Frankfurt",0,"Bayern Munich",3
+"2018-12-22","Hannover",0,"Fortuna Dusseldorf",1
+"2018-12-22","Leverkusen",3,"Hertha",1
+"2018-12-22","Nurnberg",0,"Freiburg",1
+"2018-12-22","RB Leipzig",3,"Werder Bremen",2
+"2018-12-22","Stuttgart",1,"Schalke 04",3
+"2018-12-23","Augsburg",2,"Wolfsburg",3
+"2018-12-23","Hoffenheim",1,"Mainz",1
+"2019-01-18","Hoffenheim",1,"Bayern Munich",3
+"2019-01-19","Augsburg",1,"Fortuna Dusseldorf",2
+"2019-01-19","Ein Frankfurt",3,"Freiburg",1
+"2019-01-19","Hannover",0,"Werder Bremen",1
+"2019-01-19","Leverkusen",0,"M'gladbach",1
+"2019-01-19","RB Leipzig",0,"Dortmund",1
+"2019-01-19","Stuttgart",2,"Mainz",3
+"2019-01-20","Nurnberg",1,"Hertha",3
+"2019-01-20","Schalke 04",2,"Wolfsburg",1
+"2019-01-25","Hertha",2,"Schalke 04",2
+"2019-01-26","Dortmund",5,"Hannover",1
+"2019-01-26","Freiburg",2,"Hoffenheim",4
+"2019-01-26","Mainz",2,"Nurnberg",1
+"2019-01-26","M'gladbach",2,"Augsburg",0
+"2019-01-26","Werder Bremen",2,"Ein Frankfurt",2
+"2019-01-26","Wolfsburg",0,"Leverkusen",3
+"2019-01-27","Bayern Munich",4,"Stuttgart",1
+"2019-01-27","Fortuna Dusseldorf",0,"RB Leipzig",4
+"2019-02-01","Hannover",0,"RB Leipzig",3
+"2019-02-02","Ein Frankfurt",1,"Dortmund",1
+"2019-02-02","Hertha",0,"Wolfsburg",1
+"2019-02-02","Hoffenheim",1,"Fortuna Dusseldorf",1
+"2019-02-02","Leverkusen",3,"Bayern Munich",1
+"2019-02-02","Nurnberg",1,"Werder Bremen",1
+"2019-02-02","Schalke 04",0,"M'gladbach",2
+"2019-02-03","Augsburg",3,"Mainz",0
+"2019-02-03","Stuttgart",2,"Freiburg",2
+"2019-02-08","Mainz",1,"Leverkusen",5
+"2019-02-09","Bayern Munich",3,"Schalke 04",1
+"2019-02-09","Dortmund",3,"Hoffenheim",3
+"2019-02-09","Freiburg",3,"Wolfsburg",3
+"2019-02-09","Hannover",2,"Nurnberg",0
+"2019-02-09","M'gladbach",0,"Hertha",3
+"2019-02-09","RB Leipzig",0,"Ein Frankfurt",0
+"2019-02-10","Fortuna Dusseldorf",3,"Stuttgart",0
+"2019-02-10","Werder Bremen",4,"Augsburg",0
+"2019-02-15","Augsburg",2,"Bayern Munich",3
+"2019-02-16","Hertha",1,"Werder Bremen",1
+"2019-02-16","Hoffenheim",3,"Hannover",0
+"2019-02-16","Schalke 04",0,"Freiburg",0
+"2019-02-16","Stuttgart",1,"RB Leipzig",3
+"2019-02-16","Wolfsburg",3,"Mainz",0
+"2019-02-17","Ein Frankfurt",1,"M'gladbach",1
+"2019-02-17","Leverkusen",2,"Fortuna Dusseldorf",0
+"2019-02-18","Nurnberg",0,"Dortmund",0
+"2019-02-22","Werder Bremen",1,"Stuttgart",1
+"2019-02-23","Bayern Munich",1,"Hertha",0
+"2019-02-23","Fortuna Dusseldorf",2,"Nurnberg",1
+"2019-02-23","Freiburg",5,"Augsburg",1
+"2019-02-23","Mainz",3,"Schalke 04",0
+"2019-02-23","M'gladbach",0,"Wolfsburg",3
+"2019-02-24","Dortmund",3,"Leverkusen",2
+"2019-02-24","Hannover",0,"Ein Frankfurt",3
+"2019-02-25","RB Leipzig",1,"Hoffenheim",1
+"2019-03-01","Augsburg",2,"Dortmund",1
+"2019-03-02","Ein Frankfurt",3,"Hoffenheim",2
+"2019-03-02","Hertha",2,"Mainz",1
+"2019-03-02","Leverkusen",2,"Freiburg",0
+"2019-03-02","M'gladbach",1,"Bayern Munich",5
+"2019-03-02","Nurnberg",0,"RB Leipzig",1
+"2019-03-02","Schalke 04",0,"Fortuna Dusseldorf",4
+"2019-03-03","Stuttgart",5,"Hannover",1
+"2019-03-03","Wolfsburg",1,"Werder Bremen",1
+"2019-03-08","Werder Bremen",4,"Schalke 04",2
+"2019-03-09","Bayern Munich",6,"Wolfsburg",0
+"2019-03-09","Dortmund",3,"Stuttgart",1
+"2019-03-09","Freiburg",2,"Hertha",1
+"2019-03-09","Mainz",0,"M'gladbach",1
+"2019-03-09","RB Leipzig",0,"Augsburg",0
+"2019-03-10","Hannover",2,"Leverkusen",3
+"2019-03-10","Hoffenheim",2,"Nurnberg",1
+"2019-03-11","Fortuna Dusseldorf",0,"Ein Frankfurt",3
+"2019-03-15","M'gladbach",1,"Freiburg",1
+"2019-03-16","Augsburg",3,"Hannover",1
+"2019-03-16","Hertha",2,"Dortmund",3
+"2019-03-16","Schalke 04",0,"RB Leipzig",1
+"2019-03-16","Stuttgart",1,"Hoffenheim",1
+"2019-03-16","Wolfsburg",5,"Fortuna Dusseldorf",2
+"2019-03-17","Bayern Munich",6,"Mainz",0
+"2019-03-17","Ein Frankfurt",1,"Nurnberg",0
+"2019-03-17","Leverkusen",1,"Werder Bremen",3
+"2019-03-29","Hoffenheim",4,"Leverkusen",1
+"2019-03-30","Dortmund",2,"Wolfsburg",0
+"2019-03-30","Fortuna Dusseldorf",3,"M'gladbach",1
+"2019-03-30","Freiburg",1,"Bayern Munich",1
+"2019-03-30","Nurnberg",3,"Augsburg",0
+"2019-03-30","RB Leipzig",5,"Hertha",0
+"2019-03-30","Werder Bremen",3,"Mainz",1
+"2019-03-31","Ein Frankfurt",3,"Stuttgart",0
+"2019-03-31","Hannover",0,"Schalke 04",1
+"2019-04-05","Mainz",5,"Freiburg",0
+"2019-04-06","Bayern Munich",5,"Dortmund",0
+"2019-04-06","Hertha",1,"Fortuna Dusseldorf",2
+"2019-04-06","Leverkusen",2,"RB Leipzig",4
+"2019-04-06","Schalke 04",1,"Ein Frankfurt",2
+"2019-04-06","Stuttgart",1,"Nurnberg",1
+"2019-04-06","Wolfsburg",3,"Hannover",1
+"2019-04-07","Augsburg",0,"Hoffenheim",4
+"2019-04-07","M'gladbach",1,"Werder Bremen",1
+"2019-04-12","Nurnberg",1,"Schalke 04",1
+"2019-04-13","Dortmund",2,"Mainz",1
+"2019-04-13","Hannover",0,"M'gladbach",1
+"2019-04-13","RB Leipzig",2,"Wolfsburg",0
+"2019-04-13","Stuttgart",0,"Leverkusen",1
+"2019-04-13","Werder Bremen",2,"Freiburg",1
+"2019-04-14","Ein Frankfurt",1,"Augsburg",3
+"2019-04-14","Fortuna Dusseldorf",1,"Bayern Munich",4
+"2019-04-14","Hoffenheim",2,"Hertha",0
+"2019-04-20","Augsburg",6,"Stuttgart",0
+"2019-04-20","Bayern Munich",1,"Werder Bremen",0
+"2019-04-20","Leverkusen",2,"Nurnberg",0
+"2019-04-20","Mainz",3,"Fortuna Dusseldorf",1
+"2019-04-20","M'gladbach",1,"RB Leipzig",2
+"2019-04-20","Schalke 04",2,"Hoffenheim",5
+"2019-04-21","Freiburg",0,"Dortmund",4
+"2019-04-21","Hertha",0,"Hannover",0
+"2019-04-22","Wolfsburg",1,"Ein Frankfurt",1
+"2019-04-26","Augsburg",1,"Leverkusen",4
+"2019-04-27","Dortmund",2,"Schalke 04",4
+"2019-04-27","Ein Frankfurt",0,"Hertha",0
+"2019-04-27","Fortuna Dusseldorf",4,"Werder Bremen",1
+"2019-04-27","Hannover",1,"Mainz",0
+"2019-04-27","RB Leipzig",2,"Freiburg",1
+"2019-04-27","Stuttgart",1,"M'gladbach",0
+"2019-04-28","Hoffenheim",1,"Wolfsburg",4
+"2019-04-28","Nurnberg",1,"Bayern Munich",1
+"2019-05-03","Mainz",3,"RB Leipzig",3
+"2019-05-04","Bayern Munich",3,"Hannover",1
+"2019-05-04","Hertha",3,"Stuttgart",1
+"2019-05-04","M'gladbach",2,"Hoffenheim",2
+"2019-05-04","Werder Bremen",2,"Dortmund",2
+"2019-05-04","Wolfsburg",2,"Nurnberg",0
+"2019-05-05","Freiburg",1,"Fortuna Dusseldorf",1
+"2019-05-05","Leverkusen",6,"Ein Frankfurt",1
+"2019-05-05","Schalke 04",0,"Augsburg",0
+"2019-05-11","Augsburg",3,"Hertha",4
+"2019-05-11","Dortmund",3,"Fortuna Dusseldorf",2
+"2019-05-11","Hannover",3,"Freiburg",0
+"2019-05-11","Hoffenheim",0,"Werder Bremen",1
+"2019-05-11","Leverkusen",1,"Schalke 04",1
+"2019-05-11","Nurnberg",0,"M'gladbach",4
+"2019-05-11","RB Leipzig",0,"Bayern Munich",0
+"2019-05-11","Stuttgart",3,"Wolfsburg",0
+"2019-05-12","Ein Frankfurt",0,"Mainz",2
+"2019-05-18","Bayern Munich",5,"Ein Frankfurt",1
+"2019-05-18","Fortuna Dusseldorf",2,"Hannover",1
+"2019-05-18","Freiburg",5,"Nurnberg",1
+"2019-05-18","Hertha",1,"Leverkusen",5
+"2019-05-18","Mainz",4,"Hoffenheim",2
+"2019-05-18","M'gladbach",0,"Dortmund",2
+"2019-05-18","Schalke 04",0,"Stuttgart",0
+"2019-05-18","Werder Bremen",2,"RB Leipzig",1
+"2019-05-18","Wolfsburg",8,"Augsburg",1
+"2019-08-16","Bayern Munich",2,"Hertha",2
+"2019-08-17","Dortmund",5,"Augsburg",1
+"2019-08-17","Freiburg",3,"Mainz",0
+"2019-08-17","Leverkusen",3,"Paderborn",2
+"2019-08-17","Werder Bremen",1,"Fortuna Dusseldorf",3
+"2019-08-17","Wolfsburg",2,"FC Koln",1
+"2019-08-17","M'gladbach",0,"Schalke 04",0
+"2019-08-18","Ein Frankfurt",1,"Hoffenheim",0
+"2019-08-18","Union Berlin",0,"RB Leipzig",4
+"2019-08-23","FC Koln",1,"Dortmund",3
+"2019-08-24","Augsburg",1,"Union Berlin",1
+"2019-08-24","Fortuna Dusseldorf",1,"Leverkusen",3
+"2019-08-24","Hoffenheim",3,"Werder Bremen",2
+"2019-08-24","Mainz",1,"M'gladbach",3
+"2019-08-24","Paderborn",1,"Freiburg",3
+"2019-08-24","Schalke 04",0,"Bayern Munich",3
+"2019-08-25","RB Leipzig",2,"Ein Frankfurt",1
+"2019-08-25","Hertha",0,"Wolfsburg",3
+"2019-08-30","M'gladbach",1,"RB Leipzig",3
+"2019-08-31","Bayern Munich",6,"Mainz",1
+"2019-08-31","Freiburg",1,"FC Koln",2
+"2019-08-31","Leverkusen",0,"Hoffenheim",0
+"2019-08-31","Schalke 04",3,"Hertha",0
+"2019-08-31","Wolfsburg",1,"Paderborn",1
+"2019-08-31","Union Berlin",3,"Dortmund",1
+"2019-09-01","Werder Bremen",3,"Augsburg",2
+"2019-09-01","Ein Frankfurt",2,"Fortuna Dusseldorf",1
+"2019-09-13","Fortuna Dusseldorf",1,"Wolfsburg",1
+"2019-09-14","Augsburg",2,"Ein Frankfurt",1
+"2019-09-14","Dortmund",4,"Leverkusen",0
+"2019-09-14","FC Koln",0,"M'gladbach",1
+"2019-09-14","Mainz",2,"Hertha",1
+"2019-09-14","Union Berlin",1,"Werder Bremen",2
+"2019-09-14","RB Leipzig",1,"Bayern Munich",1
+"2019-09-15","Hoffenheim",0,"Freiburg",3
+"2019-09-15","Paderborn",1,"Schalke 04",5
+"2019-09-20","Schalke 04",2,"Mainz",1
+"2019-09-21","Bayern Munich",4,"FC Koln",0
+"2019-09-21","Freiburg",1,"Augsburg",1
+"2019-09-21","Hertha",2,"Paderborn",1
+"2019-09-21","Leverkusen",2,"Union Berlin",0
+"2019-09-21","Werder Bremen",0,"RB Leipzig",3
+"2019-09-22","M'gladbach",2,"Fortuna Dusseldorf",1
+"2019-09-22","Ein Frankfurt",2,"Dortmund",2
+"2019-09-23","Wolfsburg",1,"Hoffenheim",1
+"2019-09-27","Union Berlin",1,"Ein Frankfurt",2
+"2019-09-28","Augsburg",0,"Leverkusen",3
+"2019-09-28","Hoffenheim",0,"M'gladbach",3
+"2019-09-28","Mainz",0,"Wolfsburg",1
+"2019-09-28","Paderborn",2,"Bayern Munich",3
+"2019-09-28","RB Leipzig",1,"Schalke 04",3
+"2019-09-28","Dortmund",2,"Werder Bremen",2
+"2019-09-29","Fortuna Dusseldorf",1,"Freiburg",2
+"2019-09-29","FC Koln",0,"Hertha",4
+"2019-10-04","Hertha",3,"Fortuna Dusseldorf",1
+"2019-10-05","Bayern Munich",1,"Hoffenheim",2
+"2019-10-05","Freiburg",2,"Dortmund",2
+"2019-10-05","Leverkusen",1,"RB Leipzig",1
+"2019-10-05","Paderborn",1,"Mainz",2
+"2019-10-05","Schalke 04",1,"FC Koln",1
+"2019-10-06","M'gladbach",5,"Augsburg",1
+"2019-10-06","Wolfsburg",1,"Union Berlin",0
+"2019-10-06","Ein Frankfurt",2,"Werder Bremen",2
+"2019-10-18","Ein Frankfurt",3,"Leverkusen",0
+"2019-10-19","Augsburg",2,"Bayern Munich",2
+"2019-10-19","Fortuna Dusseldorf",1,"Mainz",0
+"2019-10-19","RB Leipzig",1,"Wolfsburg",1
+"2019-10-19","Union Berlin",2,"Freiburg",0
+"2019-10-19","Werder Bremen",1,"Hertha",1
+"2019-10-19","Dortmund",1,"M'gladbach",0
+"2019-10-20","FC Koln",3,"Paderborn",0
+"2019-10-20","Hoffenheim",2,"Schalke 04",0
+"2019-10-25","Mainz",3,"FC Koln",1
+"2019-10-26","Bayern Munich",2,"Union Berlin",1
+"2019-10-26","Freiburg",2,"RB Leipzig",1
+"2019-10-26","Hertha",2,"Hoffenheim",3
+"2019-10-26","Paderborn",2,"Fortuna Dusseldorf",0
+"2019-10-26","Schalke 04",0,"Dortmund",0
+"2019-10-26","Leverkusen",2,"Werder Bremen",2
+"2019-10-27","Wolfsburg",0,"Augsburg",0
+"2019-10-27","M'gladbach",4,"Ein Frankfurt",2
+"2019-11-01","Hoffenheim",3,"Paderborn",0
+"2019-11-02","Dortmund",3,"Wolfsburg",0
+"2019-11-02","Ein Frankfurt",5,"Bayern Munich",1
+"2019-11-02","Leverkusen",1,"M'gladbach",2
+"2019-11-02","RB Leipzig",8,"Mainz",0
+"2019-11-02","Werder Bremen",2,"Freiburg",2
+"2019-11-02","Union Berlin",1,"Hertha",0
+"2019-11-03","Fortuna Dusseldorf",2,"FC Koln",0
+"2019-11-03","Augsburg",2,"Schalke 04",3
+"2019-11-08","FC Koln",1,"Hoffenheim",2
+"2019-11-09","Hertha",2,"RB Leipzig",4
+"2019-11-09","Mainz",2,"Union Berlin",3
+"2019-11-09","Paderborn",0,"Augsburg",1
+"2019-11-09","Schalke 04",3,"Fortuna Dusseldorf",3
+"2019-11-09","Bayern Munich",4,"Dortmund",0
+"2019-11-10","M'gladbach",3,"Werder Bremen",1
+"2019-11-10","Wolfsburg",0,"Leverkusen",2
+"2019-11-10","Freiburg",1,"Ein Frankfurt",0
+"2019-11-22","Dortmund",3,"Paderborn",3
+"2019-11-23","Ein Frankfurt",0,"Wolfsburg",2
+"2019-11-23","Fortuna Dusseldorf",0,"Bayern Munich",4
+"2019-11-23","Leverkusen",1,"Freiburg",1
+"2019-11-23","Union Berlin",2,"M'gladbach",0
+"2019-11-23","Werder Bremen",1,"Schalke 04",2
+"2019-11-23","RB Leipzig",4,"FC Koln",1
+"2019-11-24","Augsburg",4,"Hertha",0
+"2019-11-24","Hoffenheim",1,"Mainz",5
+"2019-11-29","Schalke 04",2,"Union Berlin",1
+"2019-11-30","FC Koln",1,"Augsburg",1
+"2019-11-30","Hertha",1,"Dortmund",2
+"2019-11-30","Hoffenheim",1,"Fortuna Dusseldorf",1
+"2019-11-30","Paderborn",2,"RB Leipzig",3
+"2019-11-30","Bayern Munich",1,"Leverkusen",2
+"2019-12-01","M'gladbach",4,"Freiburg",2
+"2019-12-01","Wolfsburg",2,"Werder Bremen",3
+"2019-12-02","Mainz",2,"Ein Frankfurt",1
+"2019-12-06","Ein Frankfurt",2,"Hertha",2
+"2019-12-07","Augsburg",2,"Mainz",1
+"2019-12-07","Dortmund",5,"Fortuna Dusseldorf",0
+"2019-12-07","Freiburg",1,"Wolfsburg",0
+"2019-12-07","M'gladbach",2,"Bayern Munich",1
+"2019-12-07","RB Leipzig",3,"Hoffenheim",1
+"2019-12-07","Leverkusen",2,"Schalke 04",1
+"2019-12-08","Union Berlin",2,"FC Koln",0
+"2019-12-08","Werder Bremen",0,"Paderborn",1
+"2019-12-13","Hoffenheim",2,"Augsburg",4
+"2019-12-14","Bayern Munich",6,"Werder Bremen",1
+"2019-12-14","FC Koln",2,"Leverkusen",0
+"2019-12-14","Hertha",1,"Freiburg",0
+"2019-12-14","Mainz",0,"Dortmund",4
+"2019-12-14","Paderborn",1,"Union Berlin",1
+"2019-12-14","Fortuna Dusseldorf",0,"RB Leipzig",3
+"2019-12-15","Wolfsburg",2,"M'gladbach",1
+"2019-12-15","Schalke 04",1,"Ein Frankfurt",0
+"2019-12-17","Werder Bremen",0,"Mainz",5
+"2019-12-17","Augsburg",3,"Fortuna Dusseldorf",0
+"2019-12-17","Dortmund",3,"RB Leipzig",3
+"2019-12-17","Union Berlin",0,"Hoffenheim",2
+"2019-12-18","Leverkusen",0,"Hertha",1
+"2019-12-18","Ein Frankfurt",2,"FC Koln",4
+"2019-12-18","Freiburg",1,"Bayern Munich",3
+"2019-12-18","M'gladbach",2,"Paderborn",0
+"2019-12-18","Wolfsburg",1,"Schalke 04",1
+"2019-12-20","Hoffenheim",2,"Dortmund",1
+"2019-12-21","Bayern Munich",2,"Wolfsburg",0
+"2019-12-21","FC Koln",1,"Werder Bremen",0
+"2019-12-21","Mainz",0,"Leverkusen",1
+"2019-12-21","RB Leipzig",3,"Augsburg",1
+"2019-12-21","Schalke 04",2,"Freiburg",2
+"2019-12-21","Hertha",0,"M'gladbach",0
+"2019-12-22","Fortuna Dusseldorf",2,"Union Berlin",1
+"2019-12-22","Paderborn",2,"Ein Frankfurt",1
+"2020-01-17","Schalke 04",2,"M'gladbach",0
+"2020-01-18","Augsburg",3,"Dortmund",5
+"2020-01-18","FC Koln",3,"Wolfsburg",1
+"2020-01-18","Fortuna Dusseldorf",0,"Werder Bremen",1
+"2020-01-18","Hoffenheim",1,"Ein Frankfurt",2
+"2020-01-18","Mainz",1,"Freiburg",2
+"2020-01-18","RB Leipzig",3,"Union Berlin",1
+"2020-01-19","Hertha",0,"Bayern Munich",4
+"2020-01-19","Paderborn",1,"Leverkusen",4
+"2020-01-24","Dortmund",5,"FC Koln",1
+"2020-01-25","Ein Frankfurt",2,"RB Leipzig",0
+"2020-01-25","Freiburg",0,"Paderborn",2
+"2020-01-25","M'gladbach",3,"Mainz",1
+"2020-01-25","Union Berlin",2,"Augsburg",0
+"2020-01-25","Wolfsburg",1,"Hertha",2
+"2020-01-25","Bayern Munich",5,"Schalke 04",0
+"2020-01-26","Werder Bremen",0,"Hoffenheim",3
+"2020-01-26","Leverkusen",3,"Fortuna Dusseldorf",0
+"2020-01-31","Hertha",0,"Schalke 04",0
+"2020-02-01","Augsburg",2,"Werder Bremen",1
+"2020-02-01","Dortmund",5,"Union Berlin",0
+"2020-02-01","Fortuna Dusseldorf",1,"Ein Frankfurt",1
+"2020-02-01","Hoffenheim",2,"Leverkusen",1
+"2020-02-01","Mainz",1,"Bayern Munich",3
+"2020-02-01","RB Leipzig",2,"M'gladbach",2
+"2020-02-02","FC Koln",4,"Freiburg",0
+"2020-02-02","Paderborn",2,"Wolfsburg",4
+"2020-02-07","Ein Frankfurt",5,"Augsburg",0
+"2020-02-08","Freiburg",1,"Hoffenheim",0
+"2020-02-08","Hertha",1,"Mainz",3
+"2020-02-08","Schalke 04",1,"Paderborn",1
+"2020-02-08","Werder Bremen",0,"Union Berlin",2
+"2020-02-08","Wolfsburg",1,"Fortuna Dusseldorf",1
+"2020-02-08","Leverkusen",4,"Dortmund",3
+"2020-02-09","Bayern Munich",0,"RB Leipzig",0
+"2020-02-14","Dortmund",4,"Ein Frankfurt",0
+"2020-02-15","Augsburg",1,"Freiburg",1
+"2020-02-15","Hoffenheim",2,"Wolfsburg",3
+"2020-02-15","Paderborn",1,"Hertha",2
+"2020-02-15","RB Leipzig",3,"Werder Bremen",0
+"2020-02-15","Union Berlin",2,"Leverkusen",3
+"2020-02-15","Fortuna Dusseldorf",1,"M'gladbach",4
+"2020-02-16","FC Koln",1,"Bayern Munich",4
+"2020-02-16","Mainz",0,"Schalke 04",0
+"2020-02-21","Bayern Munich",3,"Paderborn",2
+"2020-02-22","Freiburg",0,"Fortuna Dusseldorf",2
+"2020-02-22","Hertha",0,"FC Koln",5
+"2020-02-22","M'gladbach",1,"Hoffenheim",1
+"2020-02-22","Werder Bremen",0,"Dortmund",2
+"2020-02-22","Schalke 04",0,"RB Leipzig",5
+"2020-02-23","Leverkusen",2,"Augsburg",0
+"2020-02-23","Wolfsburg",4,"Mainz",0
+"2020-02-24","Ein Frankfurt",1,"Union Berlin",2
+"2020-02-28","Fortuna Dusseldorf",3,"Hertha",3
+"2020-02-29","Augsburg",2,"M'gladbach",3
+"2020-02-29","Dortmund",1,"Freiburg",0
+"2020-02-29","Hoffenheim",0,"Bayern Munich",6
+"2020-02-29","Mainz",2,"Paderborn",0
+"2020-02-29","FC Koln",3,"Schalke 04",0
+"2020-03-01","Union Berlin",2,"Wolfsburg",2
+"2020-03-01","RB Leipzig",1,"Leverkusen",1
+"2020-03-06","Paderborn",1,"FC Koln",2
+"2020-03-07","Freiburg",3,"Union Berlin",1
+"2020-03-07","Hertha",2,"Werder Bremen",2
+"2020-03-07","Leverkusen",4,"Ein Frankfurt",0
+"2020-03-07","Schalke 04",1,"Hoffenheim",1
+"2020-03-07","Wolfsburg",0,"RB Leipzig",0
+"2020-03-07","M'gladbach",1,"Dortmund",2
+"2020-03-08","Bayern Munich",2,"Augsburg",0
+"2020-03-08","Mainz",1,"Fortuna Dusseldorf",1
+"2020-03-11","M'gladbach",2,"FC Koln",1
+"2020-05-16","Augsburg",1,"Wolfsburg",2
+"2020-05-16","Dortmund",4,"Schalke 04",0
+"2020-05-16","Fortuna Dusseldorf",0,"Paderborn",0
+"2020-05-16","Hoffenheim",0,"Hertha",3
+"2020-05-16","RB Leipzig",1,"Freiburg",1
+"2020-05-16","Ein Frankfurt",1,"M'gladbach",3
+"2020-05-17","FC Koln",2,"Mainz",2
+"2020-05-17","Union Berlin",0,"Bayern Munich",2
+"2020-05-18","Werder Bremen",1,"Leverkusen",4
+"2020-05-22","Hertha",4,"Union Berlin",0
+"2020-05-23","Freiburg",0,"Werder Bremen",1
+"2020-05-23","M'gladbach",1,"Leverkusen",3
+"2020-05-23","Paderborn",1,"Hoffenheim",1
+"2020-05-23","Wolfsburg",0,"Dortmund",2
+"2020-05-23","Bayern Munich",5,"Ein Frankfurt",2
+"2020-05-24","Schalke 04",0,"Augsburg",3
+"2020-05-24","Mainz",0,"RB Leipzig",5
+"2020-05-24","FC Koln",2,"Fortuna Dusseldorf",2
+"2020-05-26","Dortmund",0,"Bayern Munich",1
+"2020-05-26","Ein Frankfurt",3,"Freiburg",3
+"2020-05-26","Leverkusen",1,"Wolfsburg",4
+"2020-05-26","Werder Bremen",0,"M'gladbach",0
+"2020-05-27","RB Leipzig",2,"Hertha",2
+"2020-05-27","Augsburg",0,"Paderborn",0
+"2020-05-27","Fortuna Dusseldorf",2,"Schalke 04",1
+"2020-05-27","Hoffenheim",3,"FC Koln",1
+"2020-05-27","Union Berlin",1,"Mainz",1
+"2020-05-29","Freiburg",0,"Leverkusen",1
+"2020-05-30","Hertha",2,"Augsburg",0
+"2020-05-30","Mainz",0,"Hoffenheim",1
+"2020-05-30","Schalke 04",0,"Werder Bremen",1
+"2020-05-30","Wolfsburg",1,"Ein Frankfurt",2
+"2020-05-30","Bayern Munich",5,"Fortuna Dusseldorf",0
+"2020-05-31","M'gladbach",4,"Union Berlin",1
+"2020-05-31","Paderborn",1,"Dortmund",6
+"2020-06-01","FC Koln",2,"RB Leipzig",4
+"2020-06-03","Werder Bremen",0,"Ein Frankfurt",3
+"2020-06-05","Freiburg",1,"M'gladbach",0
+"2020-06-06","Ein Frankfurt",0,"Mainz",2
+"2020-06-06","Fortuna Dusseldorf",2,"Hoffenheim",2
+"2020-06-06","Leverkusen",2,"Bayern Munich",4
+"2020-06-06","RB Leipzig",1,"Paderborn",1
+"2020-06-06","Dortmund",1,"Hertha",0
+"2020-06-07","Werder Bremen",0,"Wolfsburg",1
+"2020-06-07","Union Berlin",1,"Schalke 04",1
+"2020-06-07","Augsburg",1,"FC Koln",1
+"2020-06-12","Hoffenheim",0,"RB Leipzig",2
+"2020-06-13","FC Koln",1,"Union Berlin",2
+"2020-06-13","Fortuna Dusseldorf",0,"Dortmund",1
+"2020-06-13","Hertha",1,"Ein Frankfurt",4
+"2020-06-13","Paderborn",1,"Werder Bremen",5
+"2020-06-13","Wolfsburg",2,"Freiburg",2
+"2020-06-13","Bayern Munich",2,"M'gladbach",1
+"2020-06-14","Mainz",0,"Augsburg",1
+"2020-06-14","Schalke 04",1,"Leverkusen",1
+"2020-06-16","M'gladbach",3,"Wolfsburg",0
+"2020-06-16","Freiburg",2,"Hertha",1
+"2020-06-16","Union Berlin",1,"Paderborn",0
+"2020-06-16","Werder Bremen",0,"Bayern Munich",1
+"2020-06-17","Ein Frankfurt",2,"Schalke 04",1
+"2020-06-17","Augsburg",1,"Hoffenheim",3
+"2020-06-17","Dortmund",0,"Mainz",2
+"2020-06-17","Leverkusen",3,"FC Koln",1
+"2020-06-17","RB Leipzig",2,"Fortuna Dusseldorf",2
+"2020-06-20","Bayern Munich",3,"Freiburg",1
+"2020-06-20","FC Koln",1,"Ein Frankfurt",1
+"2020-06-20","Fortuna Dusseldorf",1,"Augsburg",1
+"2020-06-20","Hertha",2,"Leverkusen",0
+"2020-06-20","Hoffenheim",4,"Union Berlin",0
+"2020-06-20","Mainz",3,"Werder Bremen",1
+"2020-06-20","Paderborn",1,"M'gladbach",3
+"2020-06-20","RB Leipzig",0,"Dortmund",2
+"2020-06-20","Schalke 04",1,"Wolfsburg",4
+"2020-06-27","Augsburg",1,"RB Leipzig",2
+"2020-06-27","Dortmund",0,"Hoffenheim",4
+"2020-06-27","Ein Frankfurt",3,"Paderborn",2
+"2020-06-27","Freiburg",4,"Schalke 04",0
+"2020-06-27","Leverkusen",1,"Mainz",0
+"2020-06-27","M'gladbach",2,"Hertha",1
+"2020-06-27","Union Berlin",3,"Fortuna Dusseldorf",0
+"2020-06-27","Werder Bremen",6,"FC Koln",1
+"2020-06-27","Wolfsburg",0,"Bayern Munich",4
