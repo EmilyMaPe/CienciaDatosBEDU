@@ -159,7 +159,7 @@ ui <- fluidPage(
                tabItem(
                    tabName = "equipo",
                    fluidRow(
-                       titlePanel("Programacion y estaditica con R Equipo 9"),
+                       titlePanel("Programacion y estadistica con R Equipo 9"),
                        h3("Emily"),
                        h3("Samantha"),
                        h3("Sofia"),
