@@ -1,3 +1,15 @@
+#####
+#   Para la reproduccion de este proyecto 
+#      *  es necesario cambiar las rutas de acceso hacia la carpeta stocks 
+#         en las lineas : 
+#      *  contar con la carpeta www con la imagen contenida
+#      *  contar con los datasets contenidos en la carpeta stocks
+#   
+#####
+
+#####
+#   Cargamos las librerias que estaremos utilizando
+#####
 library(shiny)
 library(shinydashboard)
 library(dplyr)
@@ -6,10 +18,18 @@ library(reshape2)
 library(data.table)
 library(TSA)
 library(forecast)
+
+#####
+#   Empezamos el segmento de la interfaz de usuario de nuestra shiny web app
+#####
+
 ui <- fluidPage(
 
    dashboardPage(
        dashboardHeader(title = "Proyecto Final"),
+       #####
+       #   Declaramos las pestañas que queremos en nuestro menu lateral
+       #####
        dashboardSidebar(
            sidebarMenu(
                menuItem("Explora los stock price", tabName = "stock", icon = icon("chart-line")),
@@ -18,6 +38,9 @@ ui <- fluidPage(
                menuItem("Equipo", tabName = "equipo", icon = icon("users"))
            )
        ),
+       #####
+       #   Declaramos los estilos que queremos usar en nuestra shiny web app
+       #####
        dashboardBody(
            tags$head(tags$style(HTML('
                                 /*Proyecto Final*/
@@ -62,6 +85,13 @@ ui <- fluidPage(
                                 }
 
                                 '))),
+           #####
+           #   Que contenido va a tener cada pestaña de nuestra app
+           #   --> tab name : el nombre que se declaro en las pestañas
+           #   --> selectInput : opciones dinamicas
+           #   --> dateInput : seleccion de fechas
+           #   --> mainPanel: Donde se mostraran nuestras graficas
+           #####
            tabItems(
                tabItem(
                    tabName = "stock",
@@ -174,13 +204,18 @@ ui <- fluidPage(
    )
 )
 
-# Define server logic required to draw a histogram
+#####
+#   En cada output estaremos guardando las graficas y resultados para mostrar en el ui
+#####
 server <- function(input, output) {
 
+    #####
+    #   Exploracion de los datos con series de tiempo
+    #####
     output$Result <- renderPlot({
         library(data.table)
         setwd("C:/Users/monts/SantanderBEDU/MODULO2/Proyecto/stocks")
-        # Read all the files and create a FileName column to store filenames
+        # Leemos los archivos y los juntamos en un solo dataframe
         list_of_files <- list.files(path = ".", recursive = TRUE,
                                     pattern = "\\.csv$", 
                                     full.names = TRUE)
@@ -194,6 +229,11 @@ server <- function(input, output) {
         
         
     })
+    #####
+    #   Hipotesis: la prediccion de los precios sera acertada para mercados estables
+    #   Con el analisis de las graficas pudimos ver que para la mayoria de los casos
+    #   el precio real se mantiene dentro de nuestro intervalo de prediccion. 
+    #####
     output$Predict <- renderPlot({
         library(data.table)
         setwd("C:/Users/monts/SantanderBEDU/MODULO2/Proyecto/stocks")
@@ -206,15 +246,37 @@ server <- function(input, output) {
         DT$FileName <- gsub("./", "", DT$FileName)
         data <- filter(DT, FileName == input$companyts)
         y<- input$pricets
+        #####
+        #   Se crean dos series de tiempo, una con datos hasta diciembre de 2020
+        #   y otra hasta febrero de 2021.
+        #   La primera para poder predecir el precio de enero de 2021 y la segunda
+        #   para poder ver que tan acertada fue nuestra prediccion
+        #####
         actual <- ts(data %>% select(y), start = c(2019, 1), end = c(2020,12), 365)
         actual2 <- ts(data %>% select(y),start = c(2019,1), end = c(2021,2), 365)
+        #####
+        #   Con la primera serie haremos una prediccion con ayuda de la funcion 
+        #   arima y la funcion forecast
+        #####
         fit = auto.arima(actual, allowdrift = T)
         future = forecast(fit, h=100)
+        #####
+        #   Graficamos nuestra grafica con la prediccion y nuestra grafica con 
+        #   los datos reales/verdaderos
+        #####
         par(mfrow = c(1,2))
         plot(future, main = "Prediccion")
         ts.plot(actual2, main = "Real")
         
     })
+    #####
+    #   Hipotesis: El volumen de acciones vendidas tiene relacion con el precio
+    #   promedio de las acciones. Es decir a mayor demanda, mayor precio. 
+    #   Segun los resultados que nos dieron pudimos notar que no siempre tiene 
+    #   una relacion significativa, llegamos a la conclusion de que existen factores 
+    #   externos que determinan el precio de las acciones, siendo una de ellos el 
+    #   volumen de acciones vendidas. 
+    ###
     output$Volume <- renderPlot({
         library(dplyr)
         library(ggplot2)
@@ -231,12 +293,21 @@ server <- function(input, output) {
         DT$FileName <- gsub("./", "", DT$FileName)
         data <- filter(DT, FileName == input$companyvol)
         volume <- data %>% select(Date, Volume, Close)
+        #####
+        #   Manipulamos los tipos de datos para poder hacer el analisis deseado. 
+        #   En este caso la agrupacion de los datos por meses, sumando el total,
+        #   de acciones vendidas y sacando el promedio del precio de la accion
+        #   en un mes deterimnado.
+        #####
         volume$Date <- as.Date(volume$Date)
         volume$Date <- format(volume$Date, "%Y-%m")
         meses <- volume %>% group_by(Date) %>% summarise(sum(Volume), mean(Close))
         datos <- as.data.frame(meses)
         datos <- rename(datos, Volume = 'sum(Volume)')
         datos <- rename(datos, Close = 'mean(Close)')
+        #####
+        #   Para un mejor analisis realizaremos una estandarizacion de los datos
+        #####
         range01 <- function(x){(x-min(x))/(max(x)-min(x))}
         datos$Volume <- range01(datos$Volume)
         datos$Close <- range01(datos$Close)
@@ -244,7 +315,13 @@ server <- function(input, output) {
         inicio = fin-25
         datos1 <- datos[inicio:fin,]
         row.names(datos1) <- NULL
+        #####
+        #   Hacemos un reshape de los datos para poderlos graficar
+        #####
         grafica <- melt(cbind(datos1[1], as.matrix(datos1[-1])), id = c("Date"))
+        #####
+        #   Graficamos los la media del precio por mes, y el volumen total de venta
+        #####
         ggplot(grafica) +
             ggtitle(input$companyvol) +
             geom_bar(aes(y = Date, x = value, fill = variable), 
@@ -256,5 +333,4 @@ server <- function(input, output) {
     })
 }
 
-# Run the application 
 shinyApp(ui = ui, server = server)
