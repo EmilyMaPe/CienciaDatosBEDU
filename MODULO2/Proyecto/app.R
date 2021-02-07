@@ -1,7 +1,7 @@
 #####
 #   Para la reproduccion de este proyecto 
 #      *  es necesario cambiar las rutas de acceso hacia la carpeta stocks 
-#         en las lineas : 
+#         en las lineas : 217, 239, 286
 #      *  contar con la carpeta www con la imagen contenida
 #      *  contar con los datasets contenidos en la carpeta stocks
 #   
