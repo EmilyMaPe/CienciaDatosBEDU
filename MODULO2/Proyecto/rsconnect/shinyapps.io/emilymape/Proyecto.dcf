@@ -1,0 +1,13 @@
+name: Proyecto
+title: Proyecto
+username:
+account: emilymape
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3596441
+bundleId: 4192456
+url: https://emilymape.shinyapps.io/Proyecto/
+when: 1612716468.32181
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: www/bedu.png|www/santander.png
