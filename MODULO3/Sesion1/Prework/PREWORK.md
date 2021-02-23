@@ -36,7 +36,7 @@ Para poder acceder a ellos durante el módulo, lo primero que necesitas es una c
 
 Los conjuntos de datos que vamos a usar se encuentran [aquí](https://drive.google.com/drive/u/1/folders/10xbeqUsp0HbvbWXMGBp5evnBsJ3j9NwQ). Accede al link para ir a la carpeta donde están guardados los datasets de la sesión. Verás algo como esto (puede ser un poco distinto):
 
-<div style="padding: 10px; margin: 20px"><img src='././Imgs/pre_1.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgs/pre_1.png'></div>
 
 En caso de que no hayas hecho login en tu cuenta de Drive, hazlo ahora usando la cuenta que creaste en un paso anterior. Es importante que accedas a la carpeta de Datasets y hagas login desde tu cuenta para poder realizar los pasos siguientes.
 
