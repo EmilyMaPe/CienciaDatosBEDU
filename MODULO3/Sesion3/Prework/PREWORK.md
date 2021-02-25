@@ -32,11 +32,11 @@ Espero que ya haya quedado clara la idea básica de cómo funciona un programa: 
 
 Digamos que tenemos una estructura de datos que se ve así:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_1.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_1.png'></div>
 
 Esto es una simple `lista` con `ints` dentro. Ahora, digamos que queremos multiplicar cada uno de los elementos de esta lista por 2. Una manera horrible, lenta e impráctica de hacer esto sería lo siguiente:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_2.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_2.png'></div>
 
 ¿Por qué es tan horrible esta solución?
 
@@ -47,7 +47,7 @@ Es una muy mala idea escribir este tipo de procesos "a mano", paso a paso. Vamos
 
 En primer lugar, vamos a encapsular nuestro proceso en una función:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_3.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_3.png'></div>
 
 ¡Listo!
 
@@ -59,23 +59,23 @@ Ahora, lo que hace `map` es lo siguiente:
 
 Veamos:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_4.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_4.png'></div>
 
 Ok, todavía no tenemos el output que queramos, ¿vdd? Esta función nos regresó un objeto que se llama `map` y alguna especie de número incomprensible. Bueno, veamos qué pasa cuando usamos otra función `list` y le pasamos este objeto `map`. `list` es una función que intente convertir cualquier cosa que le pases a una `lista`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_5.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_5.png'></div>
 
 ¡Lo logramos! ¿Ves qué diferencia? El resultado de este procedimiento puede ser asignado a una variable para ser utilizado después:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_6.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_6.png'></div>
 
 Ahora qué pasaría si nuestra lista `numeros` crece:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_7.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_7.png'></div>
 
 No tenemos que cambiar absolutamente nada. `map` aplica la función *elemento por elemento*, así que no le importa cuántos elementos haya. Simplemente va a recorrer todos los elementos que encuentre, transformarlos y regresarlos en una nueva lista:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_8.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_8.png'></div>
 
 ¡Supongo que ya te puedes imaginar el potencial!
 
@@ -83,21 +83,21 @@ No tenemos que cambiar absolutamente nada. `map` aplica la función *elemento po
 
 Nuestra función puede ser tan complicada como queramos. Por ejemplo, mira esta función que transforma todos los datos nones en `0s`, mientras que los datos pares los regresa sin transformarlos:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_9.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_9.png'></div>
 
 Veamos qué pasa si le aplicamos esta función a otra `lista`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_10.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_10.png'></div>
 
 ¡Qué genial!
 
 También podemos transformar de un tipo de datos a otro. Por ejemplo, mira esta función que toma un número y lo regresa en forma de string con el signo de dinero añadido y la unidad `MXN`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_11.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_11.png'></div>
 
 Vamos a verla en acción:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_12.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_12.png'></div>
 
 ¿Cuánto a que te sientes poderoso? ¡Y apenas estamos empezando! Veamos nuestra siguiente función.
 
@@ -107,19 +107,19 @@ El nombre de la función `filter` explica exactamente lo que la función hace: f
 
 Tenemos una lista con números (perdón por estar duro y dale con las listas con números):
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_13.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_13.png'></div>
 
 Ahora digamos que lo que queremos hacer con esta lista es filtrar todos los valores positivos. Esto significa que la lista resultante **solamente va a contener números positivos**.
 
 ¿Cómo vamos a hacer eso? Pues primero necesitamos una función que nos "avise" cuando un número es positivo:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_14.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_14.png'></div>
 
 La función `numero_es_positivo` checa si el numero es mayor o igual a 0 (`if numero >= 0`); si esta condición se cumple regresa `True` (que básicamente es un "efectivamente, es positivo"). Si la condición no se cumple regresa `False` (que es un "nop, no es un número positivo").
 
 Ahora veamos qué pasa si usamos `filter` con esta función y nuestra lista `numeros`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_15.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_15.png'></div>
 
 ¡Interesante!
 
@@ -132,7 +132,7 @@ Ahora veamos qué pasa si usamos `filter` con esta función y nuestra lista `num
 
 Es por eso que en nuestro ejemplo ya solamente tenemos los elementos que son positivos. Veamos qué pasaría si quisiéramos ahora filtrar los números negativos:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_33.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_33.png'></div>
 
 Ahora nuestra función regresa `True` cuando el número es negativo (`if numero < 0`). Por lo tanto, `filter` agrega a la nueva lista todos los números negativos y deja fuera los positivos.
 
@@ -146,39 +146,39 @@ Los `operadores lógicos` complementan las funcionalidades de los `operadores de
 
 `and` une dos `sentencias de comparación` y regresa `True` sólo cuando **ambas** `sentencias` regresen `True`. En este primer ejemplo, estamos reemplazando las `sentencias` por simples `booleanos`, pero sólo lo hacemos para simplificar la lógica y hacer muy evidente el funcionamiento de `and`. En esta tablita los `1s` representan `True` y los `0s` representan `False`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_16.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_16.png'></div>
 
 Veamos ahora que pasa si usamos `True` con algunas comparaciones:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_17.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_17.png'></div>
 
 En este ejemplo, ambas comparaciones son verdaderas (`True`); por lo tanto la `sentencia and` regresa `True`. Veamos ahora unas comparaciones que resultan en `False`. En esta primera, la primera comparación es `True` pero la segunda es `False`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_18.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_18.png'></div>
 
 Ahora, la primera es `False` mientras que la segunda es `True`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_19.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_19.png'></div>
 
 Ahora, las dos son `False`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_20.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_20.png'></div>
 
 Veamos entonces cómo podríamos utilizar el operador `and` en la función `filter`. Tenemos la siguiente `lista`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_21.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_21.png'></div>
 
 Lo que queremos es filtrar todos los números que sean nones **y** menores o iguales a 50. Eso quiere decir que queremos quedarnos sólo con números que sean pares **y** mayores a 50. Primero tenemos que hacer dos funciones para identificar los números que queremos que permanezcan:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_22.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_22.png'></div>
 
 Ahora, como `filter` sólo recibe **una sola** función tenemos que hacer una nueva función que utilice nuestras dos funciones anteriores para regresar `True` sólo si un número es a la vez par y mayor a 50:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_23.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_23.png'></div>
 
 ¡Estamos listos! Ahora sí, a filtrar nuestra `lista`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_24.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_24.png'></div>
 
 Tenemos ahora una `lista` con puros números pares y mayores a 50. ¡Qué cosas maravillosas podremos hacer con esto!
 
@@ -188,19 +188,19 @@ Vayamos ahora a nuestro segundo `operador`.
 
 `or` une dos `sentencias de comparación` y regresa `True` si **una de las dos o ambas** `sentencias` regresen `True`. Es decir, si hay `True` en nuestra `sentencia`, `or` regresa `True`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_25.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_25.png'></div>
 
 En la siguiente sentencia, la primera comparación es `True`, mientras que la segunda es `False`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_26.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_26.png'></div>
 
 Si ambas comparaciones son `False` es la única forma en la que el `or` puede regresar `False`:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_27.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_27.png'></div>
 
 Veamos éste operador usado en nuestra función `filter`. Vamos a usar las mismas funciones que usamos en el ´and´ pero ahora vamos a usar `or` para unirlas. Eso quiere decir que nuestro `filter` va regresar todos los valores que sean pares **o** que sean mayores a 50:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_28.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_28.png'></div>
 
 Esto quiere decir que filtramos los valores que eran *menores a 50* **y** *nones*.
 
@@ -208,19 +208,19 @@ Esto quiere decir que filtramos los valores que eran *menores a 50* **y** *nones
 
 El último operador es mucho más sencillo. Lo único que hace este operador es regresar el valor `booleano` opuesto al que recibió:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_29.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_29.png'></div>
 
 Es como decir "dame el valor opuesto al que te estoy dando". ¿Para qué querríamos hacer algo así? Por ejemplo, nosotros ya tenemos una función que regresa `True` cuando el valor que recibe es par:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_30.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_30.png'></div>
 
 Si la usamos en nuestra lista `numeros`, vamos a obtener una nueva lista donde todos los números son pares:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_31.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_31.png'></div>
 
 Pero, ¿qué pasa si queremos filtrar ahora los números nones y obtener una lista **sólo** con números nones? Podríamos escribir otra función que regrese `True` cuando nuestro número sea non. Pero también podríamos hacer algo mucho más sencillo, usar la función que ya tenemos y simplemente "revertir" el valor que regresa:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_32.png'></div>
+<div style="padding: 10px; margin: 20px"><img src='../Imgssesion-3_32.png'></div>
 
 ¡Hey, hey, hey! ¿Qué está pasando ahí? ¿"Lambda" quién? Esto que acabamos de hacer requirió una nueva herramienta que será nuestro último tema de la sesión de hoy: `funciones lambda`. Vamos a entender cómo funcionan y luego regresamos a este último ejemplo y lo analizamos.
 
